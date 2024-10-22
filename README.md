@@ -1,5 +1,25 @@
 ### Forked from https://github.com/thisserand/tortoise-tts-fast.git
 
+#### Manual Install
+
+```
+pip install --upgrade pip
+
+pip install setuptools
+
+pip install wheel
+
+pip install cython
+
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
+
+pip install -e .
+
+pip install transformers==4.29.2
+
+pip install ipykernel ipywidgets ipython
+```
+
 # this repo is now maintenance only; please develop a fork || use the mrq repo if you have large features to submit
 
 ### recent updates
